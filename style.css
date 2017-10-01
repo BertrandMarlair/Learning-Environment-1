@@ -1,0 +1,29 @@
+.header{
+   display: flex;
+   width:null;
+   height: 200px;
+   background-color: lightgrey;
+   justify-content: center;
+   align-items: center;
+   color: rgb(255, 75, 0);
+
+
+}
+.text{
+  font: 25px;
+  display: flex;
+  width: null;
+  heignt: 100px;
+  justify-content: center;
+  color: rgb(124, 12,45);
+
+
+
+}
+.list{
+  display: flex;
+  width: null;
+  height: 120px;
+  justify-content: center;
+  align-items: flex-start;
+}
