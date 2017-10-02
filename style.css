@@ -1,29 +1,34 @@
-.header{
-   display: flex;
-   width:null;
-   height: 200px;
+.textbox{
+  display: flex;
+  flex-direction: column;
+   width:500px;
+   height:null;
    background-color: lightgrey;
    justify-content: center;
-   align-items: center;
-   color: rgb(255, 75, 0);
-
-
-}
-.text{
-  font: 25px;
+   align-items:flex-start;
+color: rgb(255, 75, 0);
+};
+.indent{};
+.boxlien{
   display: flex;
-  width: null;
-  heignt: 100px;
-  justify-content: center;
-  color: rgb(124, 12,45);
+  flex-direction: column;
+   width:500px;
+   height:null;
+   background-color: lightgrey;
+   justify-content: center;
+   align-items:flex-start;
+color: rgb(204,217, 206);
+};
 
-
-
+.h1{
+  color:rgb(255,13,255);
 }
-.list{
-  display: flex;
-  width: null;
-  height: 120px;
-  justify-content: center;
-  align-items: flex-start;
+
+.fullPage{
+font-family:'Ubuntu',sans-serif;
+margin-left:100px;
+}
+
+p{
+  font-size: 14px;
 }
