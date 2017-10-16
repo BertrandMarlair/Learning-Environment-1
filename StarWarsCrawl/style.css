@@ -1,0 +1,92 @@
+body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-position:center;
+	background-size: cover;
+	background-image: url("img/stars.jpg")
+	 /*ajouter une image par la suite */
+	}
+
+.titlecontainer{
+	display:flex;
+	justify-content: center;
+
+	height:100px;
+	
+	color:#feda4a;
+	font-family:'Pathway Gothic One', sans-serif;
+	
+}
+}
+
+.crawl1{
+	position:relative;
+	top:-100px;
+	transform-origin: 50% 100%;
+	animation: title 120s linear;
+
+}
+
+@keyframes title{
+	0%{
+		top:0;
+		transform: rotateX(20deg) translateZ(0);
+	}
+	100%{
+		top:-7000px;
+		transform: rotateX(25deg) translateZ(-2500px);
+	}
+}
+.container{
+	display:flex;
+	justify-content: center;
+	height:800px;
+	perspective:100px;
+	color:#feda4a;
+	font-family:'Pathway Gothic One', sans-serif;
+	
+}
+
+h1{
+
+	font-size:700%;
+	font-weight: 600;
+	letter-spacing:6px;
+	line-height:150%;
+	text-align:center;
+}
+h2{
+	font-size:700%;
+	font-weight: 600;
+	letter-spacing:6px;
+	line-height:150%;
+	text-align:center;
+}
+
+p {
+	font-size:500%;
+	font-weight: 600;
+	letter-spacing:6px;
+	line-height:150%;
+	text-align:justify;
+}
+
+.crawl{
+	position:relative;
+	top:-300px;
+	transform-origin: 50% 100%;
+	animation: animation 120s linear;
+
+}
+
+@keyframes animation{
+	0%{
+		top:0;
+		transform: rotateX(20deg) translateZ(0);
+	}
+	100%{
+		top:-7000px;
+		transform: rotateX(25deg) translateZ(-2500px);
+	}
+}

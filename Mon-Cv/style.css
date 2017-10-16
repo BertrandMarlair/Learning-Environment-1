@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  background: #F3EDE4;
+  font-family: sans-serif;
+}
+
+.div1 {
+  width: 100%;
+  height: 26%;
+  margin-bottom: 1%;
+}
+
+.experience {
+  width: 64%;
+  height: 100%;
+  float: right;
+  padding-top: 1%;
+}
+
+.wrapper {
+  display: grid;
+  width: 85%;
+  height: 80%;
+  grid-template-rows: 34% 66%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F3EDE4
+}
+
+.wrap-title {
+  grid-row: 1/2;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 5%;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #F3EDE4;
+}
+
+.wrap-title p {
+  display: block;
+  font-size: 25px;
+  margin-top: 2%;
+  color: #588E95;
+}
+
+.exp-box {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left-exp {
+  display: grid;
+  grid-column: 1/2;
+  grid-template-rows: 33.333% 33.333% 33.334%;
+  grid-template-columns: 50% 50%;
+}
+
+.left-exp div {
+  text-align: center;
+  line-height: 176%;
+}
+
+.left-exp div:nth-child(1) {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.left-exp div:nth-child(2) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.left-exp div:nth-child(3) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.left-exp div:nth-child(4) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.left-exp div:nth-child(5) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.left-exp div:nth-child(6) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.grey {
+  width: 90%;
+  height: 50%;
+  background-color: #CCD9CE;
+  margin-top: 5%;
+}
+
+.blue1, .blue2, .blue3, .blue4, .blue5, .blue6 {
+  height: 100%;
+  background-color: #5E83A9;
+}
+
+.blue1 {
+  width: 60%;
+}
+
+.blue2 {
+  width: 40%;
+}
+
+.blue3 {
+  width: 30%;
+}
+
+.blue4 {
+  width: 90%;
+}
+
+.blue5 {
+  width: 85%;
+}
+
+.blue6 {
+  width: 70%;
+}
+
+.right-exp {
+  display: grid;
+  grid-column: 2/3;
+  grid-template-rows: 33.333% 33.333% 33.334%;
+  grid-template-columns: 50% 50%;
+}
+
+.right-exp div {
+  text-align: center;
+  line-height: 176%;
+}
+
+.right-exp div:nth-child(1) {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.right-exp div:nth-child(2) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.right-exp div:nth-child(3) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.right-exp div:nth-child(4) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.right-exp div:nth-child(5) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.right-exp div:nth-child(6) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.picture {
+  width: 36%;
+  height: 100%;
+  float: left;
+  padding-top: 1%;
+}
+
+.picture img {
+  display: block;
+  height: 80%;
+  width: auto;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.clear {
+  clear: both;
+}
+
+.div2 {
+  width: 100%;
+  height: 57%;
+
+  display: grid;
+  grid-template-columns: 37% 64%;
+}
+
+.secondLeft {
+  display:grid;
+  grid-template-columns: repeat(10,10%);
+  grid-column: 1/2;
+  background: #000;
+}
+
+.secondRight {
+  display: grid;
+  grid-column: 2/3;
+
+  grid-template-columns: 5% 85% 10%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+.InsideRight {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #fff;
+
+  border-style: solid;
+  border-width: 1px;
+  display:grid;
+  grid-template-rows: 16% repeat(4,28%);
+
+
+}
+
+.InsideRight h1{
+  font-size: 12px;
+  margin-top:1%;
+}
+.InsideRight h3{
+  font-size: 12px;
+  margin-top:1%;
+  margin-bottom: 1%;
+  color:#097170;
+}
+
+.InsideRight p{
+  font-size: 12px;
+}
+
+.insideHeader{
+  grid-row: 1/2;
+  display: flex;
+  font-size: 25px;
+  margin-top: 2%;
+  color: #588E95;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 5%;
+}
+.part1{
+  grid-row: 2/3;
+  padding-left: 5%;
+}
+.part2{
+  grid-row: 3/4;
+  padding-left: 5%;
+}
+.part3{
+  grid-row: 4/5;
+  padding-left: 5%;
+}
+
+
+
+.div3 {
+  width: 100%;
+  height: 22%;
+  background-color: rgb(25, 0, 145);
+}
+
+.div4 {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(155, 40, 70);
+}

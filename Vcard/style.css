@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: Open Sans;
+	font-size: 16px;
+	line-height: 1.4;
+	background-color: #CCD9CE;
+
+}
+
+.card{
+	position:absolute;
+	width:370px;
+	height: auto;
+	overflow: hidden;
+
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	background-color: #fff;
+	box-shadow: 0px 0px 50px rgba(0,0,0, 0.3);
+
+
+	
+}
+
+.card a{
+	color:inherit;
+	text-decoration: none;
+}
+
+
+
+.date{
+	position:absolute;
+	display: block;
+	top:20px;
+	right:20px;
+	width:45px;
+	padding-top:10px;
+	height: 45px;
+	background: #4E3EA2;
+	border-radius:50px;
+	text-align:center;
+	line-height: 13px;
+	font-weight: bold;
+}
+.month{
+	
+text-transform:uppercase;
+}
+
+.card__thumb{
+	height:235px;
+	overflow:hidden;
+	background-color: #000;
+	transition:height 0.3s;
+}
+
+img{
+	display: block;
+	opacity:1;
+	width: 235;
+	height: 370;
+
+	
+	transition: opacity 0.3s, transform 0.3s;
+	transform: scale(1.5);
+}
+
+.card:hover .card__thumb img{
+	opacity: 0.6;
+	transform: scale(1.3);
+
+	
+}
+
+
+
+.card:hover .card__thumb {
+	height: 90px;
+}
+
+.card:hover .body{
+	height:330px;
+}
+
+
+.body{
+	position:relative;
+	padding:20px;
+	height: 185px;
+	transition: height 0.3s;
+}
+.category{
+	position: absolute;
+	height: 25px;
+	padding:0 15px;
+	background-color: #4E3EA2;
+	color:#fff;
+	font-size: 11px;
+	line-height: 25px;
+	text-transform: uppercase;
+	left:0;
+	top:-25px;
+	text-align: center;
+
+}
+
+
+.title{
+	margin:0;
+	padding: 0 0 10px 0;
+	font-size:22px;
+	color:#000;
+	font-weight:bold;
+}
+
+.subtitle{
+	color:#4E3EA2;
+	font-size: 19px;
+	padding-bottom:10px;
+}
+
+.descritpion{
+	color:#fff;
+	font-size: 14px;
+	line-height:27px;
+	opacity: 0;
+
+
+}
+
+
+
+.footer{
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	right:20px;
+	font-size: 11px;
+	color:#A3A9AB;
+	text-align: center;
+}
+
+span{
+	margin:right:2px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+footer img{
+
+	width: 14px;
+	height: 14px;
+	padding:4px;
+}
+
+p{
+	color: #fff;
+	transition:color 0.3s;
+}
+
+.card:hover p{
+	color:#000;
+}
